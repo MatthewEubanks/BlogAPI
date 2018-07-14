@@ -1,10 +1,10 @@
 {
   "name": "blogapi",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/matteprg/BlogAPI/issues"
   },
-  "homepage": "https://github.com/matteprg/BlogAPI#readme"
+  "homepage": "https://github.com/matteprg/BlogAPI#readme",
+  "description": "",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
 }
